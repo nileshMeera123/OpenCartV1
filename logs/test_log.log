@@ -29,3 +29,13 @@
 2026-01-28 18:30:55,124 - my_logger - INFO - result =========> ['pass', 'pass', 'pass', 'pass']
 2026-01-28 18:46:37,038 - my_logger - INFO - open the url
 2026-01-28 18:46:40,993 - my_logger - INFO - wait for the page to load
+2026-01-31 20:46:00,865 - my_logger - INFO - open the url
+2026-01-31 20:46:01,993 - my_logger - INFO - wait for the page to load
+2026-01-31 20:46:14,322 - my_logger - INFO - ++++++++++++>>>>>> [['tomsmith', 'SuperSecretPassword!', 'Valid'], ['tom', 'SuperSecretPassword!', 'Invalid'], ['tomsmith', 'SuperSecretPassword', 'Invalid'], ['tom', 'SuperSecretPassword', 'Invalid']]
+2026-01-31 20:46:14,322 - my_logger - INFO - ++++++++++++>>>>>> [['tomsmith', 'SuperSecretPassword!', 'Valid'], ['tom', 'SuperSecretPassword!', 'Invalid'], ['tomsmith', 'SuperSecretPassword', 'Invalid'], ['tom', 'SuperSecretPassword', 'Invalid']]
+2026-01-31 20:46:14,324 - my_logger - INFO - open the url
+2026-01-31 20:46:14,324 - my_logger - INFO - open the url
+2026-01-31 20:46:18,065 - my_logger - INFO - wait for the page to load
+2026-01-31 20:46:18,065 - my_logger - INFO - wait for the page to load
+2026-01-31 20:46:53,838 - my_logger - INFO - result =========> ['pass', 'pass', 'pass', 'pass']
+2026-01-31 20:46:53,838 - my_logger - INFO - result =========> ['pass', 'pass', 'pass', 'pass']
