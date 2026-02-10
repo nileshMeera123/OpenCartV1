@@ -47,5 +47,6 @@ pipeline {
                 reportFiles: 'report.html',
                 reportName: 'Selenium Test Report'
             ])
+        }
     }
 }
