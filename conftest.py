@@ -57,8 +57,9 @@ def pytest_configure(config):
     reports_dir = os.path.join(os.path.abspath(os.curdir), 'reports')
 
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    report_path = os.path.join(reports_dir, f"report_{timestamp}.html")
 
+    # report_path = os.path.join(reports_dir, f"report_{timestamp}.html")
+    report_path = os.path.join(reports_dir, f"report.html")
     # Set html report path dynamically
     if hasattr(config.option, "htmlpath"):
         config.option.htmlpath = report_path

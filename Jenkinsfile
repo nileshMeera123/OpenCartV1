@@ -41,11 +41,11 @@ pipeline {
     }
 
     post {
-        always {
-            echo "Pipeline execution completed"
-        }
-        failure {
-            echo "Tests failed"
-        }
+     always {
+            publishHTML(target: [
+                reportDir: 'reports',
+                reportFiles: 'report.html',
+                reportName: 'Selenium Test Report'
+            ])
     }
 }
