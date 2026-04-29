@@ -3,11 +3,11 @@ pipeline {
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/nileshMeera123/OpenCartV1.git'
-            }
-        }
+//         stage('Checkout Code') {
+//             steps {
+//                 git 'https://github.com/nileshMeera123/OpenCartV1.git'
+//             }
+//         }
 
         stage('Create Virtual Environment') {
             steps {
