@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-//         stage('Checkout Code') {
-//             steps {
-//                 git 'https://github.com/nileshMeera123/OpenCartV1.git'
-//             }
-//         }
-
         stage('Create Virtual Environment') {
             steps {
                 bat 'python -m venv venv'
@@ -35,7 +29,7 @@ pipeline {
     }
 
     post {
-     always {
+        always {
             publishHTML(target: [
                 reportDir: 'reports',
                 reportFiles: 'report.html',
