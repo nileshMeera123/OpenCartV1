@@ -14,9 +14,6 @@ class TestLogin:
     @pytest.mark.regression
     def test_login(self,setup):
         """
-        Added comment to the test cases
-        :param setup:
-        :return:
         """
         logger = MyLogger.getLogger()
         # print(get_username())
