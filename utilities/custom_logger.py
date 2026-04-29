@@ -7,7 +7,6 @@ class MyLogger:
     def getLogger():
         """
 
-        :return:
         """
         logger = logging.getLogger("my_logger")
         logger.setLevel(logging.DEBUG)
